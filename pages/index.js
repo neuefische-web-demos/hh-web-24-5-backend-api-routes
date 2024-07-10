@@ -8,7 +8,7 @@ export default function HomePage() {
     return <h1>Loading...</h1>;
   }
 
-  if (!data) {
+  if (!jokes) {
     return;
   }
 
