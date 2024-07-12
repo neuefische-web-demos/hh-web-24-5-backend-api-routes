@@ -12,5 +12,8 @@ export default function handler(request, response) {
     // jokes aus unser Database
     response.status(200).json(jokes);
     return;
+  } else {
+    response.status(405).json({ message: 'Method not allowed' });
   }
+  r;
 }
