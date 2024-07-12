@@ -15,5 +15,4 @@ export default function handler(request, response) {
   } else {
     response.status(405).json({ message: 'Method not allowed' });
   }
-  r;
 }
